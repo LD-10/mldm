@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christophe Bertault – Mathématiques en MPSI</title>
+  <!-- Lien vers une feuille de style externe si souhaité -->
+  <style>
+    /* Reset et styles globaux */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    a { text-decoration: none; color: inherit; }
+    .container { width: 90%; max-width: 1000px; margin: auto; }
+
+    /* Header */
+    header {
+      background: url('entete2.png') center/cover no-repeat;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    .site-title { font-size: 2.5rem; font-weight: bold; color: #222; }
+    .site-description { font-size: 1.25rem; color: #555; margin-top: 0.5rem; }
+
+    /* Navigation */
+    nav { background: #f5f5f5; }
+    .menu { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; }
+    .menu li { position: relative; margin: 0.5rem 1rem; }
+    .menu > li > a { padding: 0.5rem 1rem; display: block; }
+    /* Sous-menu */
+    .menu li ul { display: none; position: absolute; top: 100%; left: 0; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .menu li:hover > ul { display: block; }
+    .menu li ul li { margin: 0; }
+
+    /* Contenu principal */
+    main { padding: 2rem 0; }
+    .entry-header h1 { font-size: 2rem; margin-bottom: 1rem; }
+    .entry-content p { margin-bottom: 1rem; text-align: justify; }
+    .entry-content img { vertical-align: middle; }
+    .entry-content strong span[colourother] { color: #476b98; }
+    .entry-content strong span[colourdanger] { color: #aa2b2b; }
+
+    /* Footer */
+    footer { text-align: center; padding: 1rem 0; font-size: 0.9rem; color: #777; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/">
+        <span class="site-title">Christophe Bertault</span>
+      </a>
+      <p class="site-description">Mathématiques en MPSI</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul class="menu">
+        <li><a href="cours-et-exercices.html">Cours et exercices</a></li>
+        <li>
+          <a href="#">Devoirs</a>
+          <ul>
+            <li><a href="devoirs-a-la-maison.html">Devoirs à la maison</a></li>
+            <li><a href="devoirs-surveilles.html">Devoirs surveillés</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Vie de la classe</a>
+          <ul>
+            <li><a href="programmes-de-colles.html">Programmes de colles</a></li>
+            <li><a href="ccs.html">Salle L311 🔒</a></li>
+          </ul>
+        </li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="liens.html">Liens</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <article>
+      <header class="entry-header">
+        <h1 class="entry-title">Bienvenue !</h1>
+      </header>
+      <div class="entry-content">
+        <p><img src="carrevide.png" alt="vide" width="15" height="15"></p>
+        <p>Après sept années heureuses en MPSI 3 au lycée Saint-Louis, j’enseignerai les mathématiques dans la classe <strong>HX2</strong> (filière <strong>MPSI</strong>) du <strong>lycée Henri-IV</strong> de Paris à la rentrée prochaine. Vous trouverez sur ces pages au format PDF une grande partie des documents que je distribue à mes étudiants.</p>
+        <p>Vous pouvez m’écrire à l’adresse suivante : <strong>christophebertault [at] gmail.com</strong></p>
+        <p><strong><span colourother>J’autorise quiconque le souhaite à placer sur son site un lien vers mes documents, mais je n’autorise personne à les héberger directement. J’interdis par ailleurs toute utilisation commerciale de mon travail.</span></strong></p>
+        <p><strong><span colouredanger>Il est inutile en revanche de m’écrire pour me demander des documents que je ne publie pas sur ce site, des cours particuliers ou des conseils méthodologiques.</span></strong></p>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Christophe Bertault</p>
+  </footer>
+</body>
+</html>
